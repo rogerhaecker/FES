@@ -35,6 +35,7 @@ h1{
 .row{
     width: 100%;
     max-width: 800px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,4 +66,121 @@ li{
     list-style-type: none;
     padding-left: 16px;
 
+}
+#about, #discord, #contact, footer{
+    padding: 48px 0;
+}
+    
+#about{
+    background-color: #f8ffdc;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    ,aspect-ratio: 24px;
+    
+
+}
+.section_description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_description-wrapper{
+    width: 50%;
+    padding: 0 24px;
+    
+}   
+.section_description-para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24x;
+}
+.about_image--wrapper{
+    width: 40%;
+    
+
+}
+img{
+    width: 100%;
+}
+.section_description-wrapper, .about_image--wrapper{
+    padding: 30px
+}
+#discord{
+    padding: 48px 0;
+    background-color: #cefeff;
+    
+}
+#contact{
+
+    background-color: #dce9ff;
+    padding: 48px 0;
+} 
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 24px;
+
+}
+input, textarea{
+    margin-bottom: 24px;
+    padding: 6px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}   
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__logo{
+    max-width: 480px;;
+    margin-bottom: 16px;
+}
+.footer__links{
+    
+    margin-bottom: 32px;
+}
+footer__link{
+    padding: 0 16px;
+}
+@media(max-width: 723px){
+    .row{
+        flex-direction: column;
+    }
+    .home__discription{
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home__discription--button{
+        max-width: 240px;;
+    }
+    h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .subheader{
+        font-size: 28px;
+        text-align: center;
+    }
+    ul{
+        display: none;
+    }
+    .section_description{
+        flex-direction: column;
+    }   
+    .section_description-wrapper{
+        width: 100%;
+    }
+    #discord .section_description{
+        flex-direction: column-reverse ;
+    }
 }

@@ -18,11 +18,11 @@
         </nav>
         <header>
             <div class="row">
-            <div>
-                <h1Best Best place to learn Frontend Development</h1>
-                <p class="subheader">Go from being an absolute beginner to a pro with simplified program!</p>
-                <button>Start Now</button>
-            </div>
+                <div  class="home__description">
+                    <h1Best Best place to learn Frontend Development</h1>
+                    <p class="subheader">Go from being an absolute beginner to a pro with simplified program!</p>
+                    <button class="home__description--button">Start Now</button>
+                </div>
         
             <figure>
                 <img src="assets/laptop.png"
@@ -33,33 +33,43 @@
     <main>
         <section id="about">
             <h2>About</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, voluptates quisquam maiores molestias quos hic facere sunt vero alias iste corrupti amet autem tempora quasi quaerat vitae mollitia cupiditate qui.</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                </div>
+            
         </section>
-        <section id="Discord">
+        <section id="discord">
             <h2>Discord</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, voluptates quisquam maiores molestias quos hic facere sunt vero alias iste corrupti amet autem tempora quasi quaerat vitae mollitia cupiditate qui.</p>
+            <div class="row">
+                <div class="section_description">
+                    <figure>
+                        <img src="assets/discord.png" alt="Discord Image">  
+                    </figure>
+                    <div class="section_description-wrapper">
+                        <p class="section_description-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                        <p class="section_description-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, voluptates quisquam maiores molestias quos hic facere sunt vero alias iste corrupti amet autem tempora quasi quaerat vitae mollitia cupiditate qui.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                        <p class="section_description-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
             </section>
         <section id="contact">
             <h2>Contact</h2>
             <form action="">
                 <span>Email:</span>
-                <input type="text" placeholder="Joe@example.com> 
+                <input type="email" placeholder="Joe@example.com">
                 <span>Message</span>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your message here"></textarea>
-                
+                <textarea type="text"text"- placeholder="Your message here"></textarea>
+                <button type="submit">Contact Us@</button>
+            </form>
         </section>
     </main>
     <footer>
-        <img src="assets/FES.svg" alt"Logo">
-        <div>
-            <a href="#about"></a>about</a>
-            <a href="#discord">about</a>
-            <a href="#contact">Contact</a>
-            <a href="">Courses</a>
+        <img class="footer__logo" src="assets/FES.svg" alt"Logo">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About</a>
+            <a class="footer__link" href="#discord">Services</a>
+            <a class="footer__link" href="#contact">Contact</a>
+            <a class="footer__link" href="">Courses</a>
         </div>
         <p>&copy; 2023 Frontend Simplified. All rights reserved.</p>
     </footer>
